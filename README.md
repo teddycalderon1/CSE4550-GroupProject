@@ -19,6 +19,7 @@ Debug mode:
     set FLASK_DEBUG=1
 
 Run application:
+    
     flask run
 
     NOTE: the default local IP did not work for me. I had to use: flask run --host 0.0.0.0. It will make the server externally visible. If the IP address of the machine is 192.168.X.X then, from the same network you can access it in 5000 port. So only do the 0.0.0.0 on trusted network.

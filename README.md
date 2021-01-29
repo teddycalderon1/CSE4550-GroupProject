@@ -2,9 +2,11 @@
 Repo for Spring 2021 CSE 4550 
 
 Install Flask using terminal (I am using Ubuntu Linux)
+    
     pip install flask
 
 Start Flask Server from project folder:
+    
     export FLASK_APP=dealership.py
 
     Windows:

@@ -1,5 +1,6 @@
 from app import app
 from flask import render_template
+import os
 
 @app.route('/')
 @app.route('/home')
@@ -12,7 +13,6 @@ def home():
 def index():
 
     return render_template('index.html', message="Changing Data")
-    #return "hello"
 
 @app.route('/query_results')
 def query_results():

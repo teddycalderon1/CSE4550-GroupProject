@@ -28,8 +28,3 @@ Run application:
         http://127.0.0.1:5000/
 
     Or if used 0.0.0.0:5000 go to that one should see "Hello World"
-
-    # Flask Bootstrap Reference: use after initial Hello World install
-
-    [Link to tutorial ](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates)
- 
